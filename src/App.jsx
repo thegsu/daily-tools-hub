@@ -31,7 +31,8 @@ export default function App() {
   // 🔥 FAKE AD FUNCTION (replace later with real ad)
   const showAdThen = (callback) => {
     // Open ad link (IMPORTANT: replace this)
-    window.open("YOUR_AD_LINK_HERE", "_blank");
+
+    const adWindow = window.open("https://www.profitablecpmratenetwork.com/f6nc22u71i?key=c7a98c4c08489b1332f4bc7a150fd140", "_blank", "noopener,noreferrer");
 
     // Simulate watch time
     setTimeout(() => {
