@@ -34,9 +34,11 @@ export default function App() {
 
     const adWindow = window.open("https://www.profitablecpmratenetwork.com/f6nc22u71i?key=c7a98c4c08489b1332f4bc7a150fd140", "_blank", "noopener,noreferrer");
 
-    // Simulate watch time
+   // Wait before unlocking
     setTimeout(() => {
-      callback();
+      if (adWindow) {
+        callback();
+      }
     }, 6000);
   };
 
