@@ -45,7 +45,7 @@ export default function App() {
       callback();
     }, 5000);
   };
-
+  // version 2 fix
   const handleUnlock = () => {
     showAdThen(() => {
       setUnlocked(true);
