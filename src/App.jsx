@@ -96,7 +96,7 @@ export default function App() {
         }}
       >
         <textarea
-          placeholder="Type your text..."
+          placeholder="Type your textttttt..."
           value={text}
           onChange={(e) => {
             setText(e.target.value);
